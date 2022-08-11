@@ -1,0 +1,22 @@
+{
+    "name": "cpp-env",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "extensions": [
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "twxs.cmake",
+        "ms-vscode.cpptools",
+        "visualstudioexptteam.vscodeintellicode",
+        "xaver.clang-format",
+        "notskm.clang-tidy",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "amiralizadeh9480.cpp-helper"
+        //"ms-vscode.cmake-tools"
+    ],
+
+    "settings": {
+        "cmake.copyCompileCommands": ""
+    }
+}

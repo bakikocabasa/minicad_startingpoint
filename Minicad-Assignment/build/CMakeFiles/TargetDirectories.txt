@@ -1,0 +1,3 @@
+/workspaces/minicad_startingpoint/build/CMakeFiles/minicad.dir
+/workspaces/minicad_startingpoint/build/CMakeFiles/edit_cache.dir
+/workspaces/minicad_startingpoint/build/CMakeFiles/rebuild_cache.dir
