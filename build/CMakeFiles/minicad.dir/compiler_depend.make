@@ -594,7 +594,23 @@ CMakeFiles/minicad.dir/model/triangle.cpp.o: ../model/triangle.cpp \
   /usr/include/curses.h \
   /usr/include/ncurses_dll.h \
   /usr/include/stdarg.h \
-  /usr/include/unctrl.h
+  /usr/include/unctrl.h \
+  /usr/include/c++/11.2.1/cmath \
+  /usr/include/math.h \
+  /usr/include/c++/11.2.1/bits/specfun.h \
+  /usr/include/c++/11.2.1/limits \
+  /usr/include/c++/11.2.1/tr1/gamma.tcc \
+  /usr/include/c++/11.2.1/tr1/special_function_util.h \
+  /usr/include/c++/11.2.1/tr1/bessel_function.tcc \
+  /usr/include/c++/11.2.1/tr1/beta_function.tcc \
+  /usr/include/c++/11.2.1/tr1/ell_integral.tcc \
+  /usr/include/c++/11.2.1/tr1/exp_integral.tcc \
+  /usr/include/c++/11.2.1/tr1/hypergeometric.tcc \
+  /usr/include/c++/11.2.1/tr1/legendre_function.tcc \
+  /usr/include/c++/11.2.1/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11.2.1/tr1/poly_hermite.tcc \
+  /usr/include/c++/11.2.1/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11.2.1/tr1/riemann_zeta.tcc
 
 CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.o: ../ui/commands/command_stack.cpp \
   /usr/include/stdc-predef.h \
@@ -1785,6 +1801,14 @@ CMakeFiles/minicad.dir/ui/ncurses/window.cpp.o: ../ui/ncurses/window.cpp \
   /usr/include/unctrl.h
 
 
+../ui/ncurses/canvas.cpp:
+
+../ui/commands/scale_shape_command.cpp:
+
+../ui/commands/remove_shape_command.cpp:
+
+../ui/commands/create_triangle_command.cpp:
+
 /usr/include/c++/11.2.1/tr1/riemann_zeta.tcc:
 
 /usr/include/c++/11.2.1/tr1/poly_hermite.tcc:
@@ -1808,14 +1832,6 @@ CMakeFiles/minicad.dir/ui/ncurses/window.cpp.o: ../ui/ncurses/window.cpp \
 /usr/include/math.h:
 
 /usr/include/c++/11.2.1/cmath:
-
-../ui/ncurses/canvas.cpp:
-
-../ui/commands/scale_shape_command.cpp:
-
-../ui/commands/remove_shape_command.cpp:
-
-../ui/commands/create_triangle_command.cpp:
 
 ../model/square.cpp:
 

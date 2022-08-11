@@ -1,0 +1,66 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/usr/include/c++/11.2.1",
+						"/usr/include/c++/11.2.1/x86_64-alpine-linux-musl",
+						"/usr/include/c++/11.2.1/backward",
+						"/usr/include/fortify",
+						"/usr/include",
+						"/usr/lib/gcc/x86_64-alpine-linux-musl/11.2.1/include"
+					],
+					"linkDirectories" : 
+					[
+						"/usr/lib/gcc/x86_64-alpine-linux-musl/11.2.1",
+						"/usr/x86_64-alpine-linux-musl/lib",
+						"/usr/lib",
+						"/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"ssp_nonshared",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/usr/bin/c++",
+				"version" : "11.2.1"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"m",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

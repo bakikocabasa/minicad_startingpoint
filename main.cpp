@@ -62,9 +62,9 @@ ui::MenuEntry createCreateMenuEntry(ui::CommandStack* commandStack, std::vector<
         echo();
         console->clear();
         console->print("Create circle ...\n");
-        console->print("Center x:");
+        console->print("Center x(width):");
         int x = std::stoi(console->getStr().c_str()) ;
-        console->print("Center y:");
+        console->print("Center y(height):");
         int y = std::stoi(console->getStr().c_str()) ;
         console->print("radius:");
         int radius = std::stoi(console->getStr().c_str()) ;
@@ -78,9 +78,9 @@ ui::MenuEntry createCreateMenuEntry(ui::CommandStack* commandStack, std::vector<
         echo();
         console->clear();
         console->print("Create square ...\n");
-        console->print("Center x:");
+        console->print("Center x(width):");
         int x = std::stoi(console->getStr().c_str()) ;
-        console->print("Center y:");
+        console->print("Center y(height):");
         int y = std::stoi(console->getStr().c_str()) ;
         console->print("length:");
         int length = std::stoi(console->getStr().c_str()) ;
@@ -93,9 +93,9 @@ ui::MenuEntry createCreateMenuEntry(ui::CommandStack* commandStack, std::vector<
         echo();
         console->clear();
         console->print("Create triangle ...\n");
-        console->print("Center x:");
+        console->print("Center x(width):");
         int x = std::stoi(console->getStr().c_str()) ;
-        console->print("Center y:");
+        console->print("Center y(height):");
         int y = std::stoi(console->getStr().c_str()) ;
         console->print("length:");
         int length = std::stoi(console->getStr().c_str()) ;
@@ -119,6 +119,7 @@ ui::MenuEntry createCreateMenuEntry(ui::CommandStack* commandStack, std::vector<
 int main() {
     // safe terminal settings
     // https://arstechnica.com/civis/viewtopic.php?f=20&t=70699
+    
     struct termios old_settings;
     tcgetattr( 0, &old_settings );
 
