@@ -3,7 +3,8 @@
 
 #include "point.h"
 
-namespace tubs::ui {
+namespace tubs::ui 
+{
     class Canvas;
 }
 
@@ -26,9 +27,7 @@ public:
 
     virtual void draw(ui::Canvas* win) const = 0;
     virtual void translate(float dx, float dy);
-    // TODO: add a scale method here. This method must be pure virtual and implemented in the specific shapes.
-    // ...
-
+    virtual void scale(double scaling_coeff);
     static int counter;
 
 protected:
@@ -37,7 +36,6 @@ protected:
     int id;
     Observer* observer;
 };
-
 
 }
 

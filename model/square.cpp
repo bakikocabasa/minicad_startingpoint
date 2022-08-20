@@ -5,10 +5,18 @@
 namespace tubs::model
 {
 
-Square::Square(int x, int y, int len, Observer* observer):
-Shape(x,y, observer), length(len)
+Square::Square(int x, int y, int length, Observer* observer):
+Shape(x,y, observer), length(length)
 {}
 
+void Square::scale(double scaling_coeff)
+{
+    
+    length*=scaling_coeff;
+    observer->update();
+}
+
+    
 
 void Square::draw(ui::Canvas* canvas) const
 {

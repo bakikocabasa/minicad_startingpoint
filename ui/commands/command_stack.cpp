@@ -13,7 +13,7 @@ void CommandStack::execute(Command* command) {
 
     //Stack that stores the original parameters of the an executed command
     // TODO: manipulate undo / redo stack here
-    redoStack = CommandStack(); //clears the redoStack because a new command was just executed
+    redoStack.empty(); //clears the redoStack because a new command was just executed
     command->execute();  
     undoStack.push(command);  //stores command in undoStack
 

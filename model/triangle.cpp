@@ -6,13 +6,17 @@
 namespace tubs::model
 {
 
-Triangle::Triangle(int x, int y, int len, Observer* observer):
-Shape(x,y, observer), length(len)
+Triangle::Triangle(int x, int y, int length, Observer* observer):
+Shape(x,y, observer), length(length)
 {}
 
+void Triangle::scale(double scaling_coeff)
+{
+    length*=scaling_coeff;
+    observer->update();
+}
 
 void Triangle::draw(ui::Canvas* canvas) const
-
     {
         const int drag_coeff=int((length/2/(2*sqrt(3.0))));
 

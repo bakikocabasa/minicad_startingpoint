@@ -1,5 +1,3 @@
-// Hello world, by Raissa
-// Hallo world, by Becky
 #include <stdexcept>
 #include <string>
 #include <iostream>
@@ -90,13 +88,13 @@ ui::MenuEntry createCreateMenuEntry(ui::CommandStack* commandStack, std::vector<
         ui::CreateSquareCommand* s = new ui::CreateSquareCommand(*shapes, x, y, length, observer);
         commandStack->execute(s);
     }));
-        //*triangle
+        //triangle
     createMenu.addEntry(ui::MenuEntry("Triangle", 't', [=]()->void {
         echo();
         console->clear();
         console->print("Create triangle ...\n");
         console->print("Center x(width):");
-        int x = std::stoi(console->getStr().c_str()) ;
+        int x = std::stoi(console->getStr().c_str()) ; //std::stoi retuns string into intereger 
         console->print("Center y(height):");
         int y = std::stoi(console->getStr().c_str()) ;
         console->print("length:");
@@ -184,8 +182,19 @@ int main() {
         commandStack.execute(c);
     }));
 
-    // TODO: add menu entry for scaling here. Use the translate menu item above as a guide.
-    // ...
+    mainMenu.addEntry(ui::MenuEntry("Scale", 's', [&]()->void{
+        echo();
+        console.clear();
+        console.print("Choose shape: ");
+        const std::size_t shapeNumber = std::stoi(console.getStr().c_str());
+        if(shapeNumber >= shapes.size())
+            return;
+
+        console.print("Scaling Factor: ");
+        int scaling_coeff = std::stoi(console.getStr().c_str());
+        ui::ScaleShapeCommand* c = new ui::ScaleShapeCommand(shapes[shapeNumber],scaling_coeff);
+        commandStack.execute(c);
+    }));
 
     // MENU: remove
     mainMenu.addEntry(ui::MenuEntry("Delete", 'd', [&]()->void{
@@ -210,7 +219,6 @@ int main() {
     mainMenu.addEntry(ui::MenuEntry("Redo", 'r', [&]()->void {
         commandStack.redo();
     }));
-
 
     mainMenu.show();
 

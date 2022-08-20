@@ -7,8 +7,7 @@ namespace tubs::model
 
 int Shape::counter = 0;
 
-Shape::Shape(int x, int y, Observer* observer) :
-center(x,y), observer(observer)
+Shape::Shape(int x, int y, Observer* observer) : center(x,y), observer(observer)
 {
     id = counter++;
 }
@@ -16,6 +15,13 @@ center(x,y), observer(observer)
 void Shape::translate(float dx, float dy)
 {
     center.translate(dx, dy);
+
+    observer->update();
+}
+
+void Shape::scale(double scaling_coeff)
+{
+    scale(scaling_coeff);
 
     observer->update();
 }

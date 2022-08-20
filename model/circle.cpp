@@ -2,16 +2,23 @@
 
 #include "canvas.h"
 
+
 namespace tubs::model
 {
 
 Circle::Circle(int x, int y, double r, Observer* observer) :
-Shape(x, y, observer), radius(r)
-{}
+Shape(x, y, observer), radius(r) {}
 
+void Circle::scale(double scaling_coeff)
+{
+
+    radius*=scaling_coeff;
+    observer->update();
+}
 
 void Circle::draw(ui::Canvas* canvas) const
 {
+    //radius=radius
     int f = 1 - radius;
     int ddf_x = 1;
     int ddf_y = -2 * radius;
