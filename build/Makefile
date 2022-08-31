@@ -369,6 +369,30 @@ ui/commands/create_triangle_command.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.s
 .PHONY : ui/commands/create_triangle_command.cpp.s
 
+ui/commands/downscale_shape_command.o: ui/commands/downscale_shape_command.cpp.o
+.PHONY : ui/commands/downscale_shape_command.o
+
+# target to build an object file
+ui/commands/downscale_shape_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.o
+.PHONY : ui/commands/downscale_shape_command.cpp.o
+
+ui/commands/downscale_shape_command.i: ui/commands/downscale_shape_command.cpp.i
+.PHONY : ui/commands/downscale_shape_command.i
+
+# target to preprocess a source file
+ui/commands/downscale_shape_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.i
+.PHONY : ui/commands/downscale_shape_command.cpp.i
+
+ui/commands/downscale_shape_command.s: ui/commands/downscale_shape_command.cpp.s
+.PHONY : ui/commands/downscale_shape_command.s
+
+# target to generate assembly for a file
+ui/commands/downscale_shape_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.s
+.PHONY : ui/commands/downscale_shape_command.cpp.s
+
 ui/commands/remove_shape_command.o: ui/commands/remove_shape_command.cpp.o
 .PHONY : ui/commands/remove_shape_command.o
 
@@ -440,6 +464,30 @@ ui/commands/translate_shape_command.s: ui/commands/translate_shape_command.cpp.s
 ui/commands/translate_shape_command.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.s
 .PHONY : ui/commands/translate_shape_command.cpp.s
+
+ui/commands/upscale_shape_command.o: ui/commands/upscale_shape_command.cpp.o
+.PHONY : ui/commands/upscale_shape_command.o
+
+# target to build an object file
+ui/commands/upscale_shape_command.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.o
+.PHONY : ui/commands/upscale_shape_command.cpp.o
+
+ui/commands/upscale_shape_command.i: ui/commands/upscale_shape_command.cpp.i
+.PHONY : ui/commands/upscale_shape_command.i
+
+# target to preprocess a source file
+ui/commands/upscale_shape_command.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.i
+.PHONY : ui/commands/upscale_shape_command.cpp.i
+
+ui/commands/upscale_shape_command.s: ui/commands/upscale_shape_command.cpp.s
+.PHONY : ui/commands/upscale_shape_command.s
+
+# target to generate assembly for a file
+ui/commands/upscale_shape_command.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minicad.dir/build.make CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.s
+.PHONY : ui/commands/upscale_shape_command.cpp.s
 
 ui/ncurses/canvas.o: ui/ncurses/canvas.cpp.o
 .PHONY : ui/ncurses/canvas.o
@@ -600,6 +648,9 @@ help:
 	@echo "... ui/commands/create_triangle_command.o"
 	@echo "... ui/commands/create_triangle_command.i"
 	@echo "... ui/commands/create_triangle_command.s"
+	@echo "... ui/commands/downscale_shape_command.o"
+	@echo "... ui/commands/downscale_shape_command.i"
+	@echo "... ui/commands/downscale_shape_command.s"
 	@echo "... ui/commands/remove_shape_command.o"
 	@echo "... ui/commands/remove_shape_command.i"
 	@echo "... ui/commands/remove_shape_command.s"
@@ -609,6 +660,9 @@ help:
 	@echo "... ui/commands/translate_shape_command.o"
 	@echo "... ui/commands/translate_shape_command.i"
 	@echo "... ui/commands/translate_shape_command.s"
+	@echo "... ui/commands/upscale_shape_command.o"
+	@echo "... ui/commands/upscale_shape_command.i"
+	@echo "... ui/commands/upscale_shape_command.s"
 	@echo "... ui/ncurses/canvas.o"
 	@echo "... ui/ncurses/canvas.i"
 	@echo "... ui/ncurses/canvas.s"

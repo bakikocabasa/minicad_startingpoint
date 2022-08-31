@@ -25,7 +25,9 @@
 #include "create_triangle_command.h"
 #include "translate_shape_command.h"
 #include "remove_shape_command.h"
-#include "scale_shape_command.h"
+#include "upscale_shape_command.h"
+#include "downscale_shape_command.h"
+//#include "scale_shape_command.h"
 // TODO: add includes from new header files here
 // ...
 
@@ -182,7 +184,7 @@ int main() {
         commandStack.execute(c);
     }));
 
-    mainMenu.addEntry(ui::MenuEntry("Scale", 's', [&]()->void{
+    mainMenu.addEntry(ui::MenuEntry("UpScale", 'p', [&]()->void{
         echo();
         console.clear();
         console.print("Choose shape: ");
@@ -190,12 +192,29 @@ int main() {
         if(shapeNumber >= shapes.size())
             return;
 
-        console.print("Scaling Factor: ");
-        int scaling_coeff = std::stoi(console.getStr().c_str());
-        ui::ScaleShapeCommand* c = new ui::ScaleShapeCommand(shapes[shapeNumber],scaling_coeff);
+        console.print("UpScaling Factor: ");
+        double scaling_coeff = std::stoi(console.getStr().c_str());
+        if(scaling_coeff <= 1.0)
+            return;
+        ui::UpScaleShapeCommand* c = new ui::UpScaleShapeCommand(shapes[shapeNumber],scaling_coeff);
         commandStack.execute(c);
     }));
 
+    mainMenu.addEntry(ui::MenuEntry("DownScale", 'w', [&]()->void{
+        echo();
+        console.clear();
+        console.print("Choose shape: ");
+        const std::size_t shapeNumber = std::stoi(console.getStr().c_str());
+        if(shapeNumber >= shapes.size())
+            return;
+
+        console.print("DownScaling Factor: ");
+        double scaling_coeff = std::stoi(console.getStr().c_str());
+        if(scaling_coeff <= 1.0)
+            return;
+        ui::DownScaleShapeCommand* c = new ui::DownScaleShapeCommand(shapes[shapeNumber],scaling_coeff);
+        commandStack.execute(c);
+    }));    
     // MENU: remove
     mainMenu.addEntry(ui::MenuEntry("Delete", 'd', [&]()->void{
         echo();

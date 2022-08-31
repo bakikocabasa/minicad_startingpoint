@@ -73,253 +73,281 @@ CMakeFiles/minicad.dir/main.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/main.cpp.o: ../main.cpp
 CMakeFiles/minicad.dir/main.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/minicad.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/main.cpp.o -MF CMakeFiles/minicad.dir/main.cpp.o.d -o CMakeFiles/minicad.dir/main.cpp.o -c /workspaces/minicad_startingpoint/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/main.cpp.o -MF CMakeFiles/minicad.dir/main.cpp.o.d -o CMakeFiles/minicad.dir/main.cpp.o -c /workspaces/minicad_startingpoint/main.cpp
 
 CMakeFiles/minicad.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/main.cpp > CMakeFiles/minicad.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/main.cpp > CMakeFiles/minicad.dir/main.cpp.i
 
 CMakeFiles/minicad.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/main.cpp -o CMakeFiles/minicad.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/main.cpp -o CMakeFiles/minicad.dir/main.cpp.s
 
 CMakeFiles/minicad.dir/model/circle.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/model/circle.cpp.o: ../model/circle.cpp
 CMakeFiles/minicad.dir/model/circle.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/minicad.dir/model/circle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/model/circle.cpp.o -MF CMakeFiles/minicad.dir/model/circle.cpp.o.d -o CMakeFiles/minicad.dir/model/circle.cpp.o -c /workspaces/minicad_startingpoint/model/circle.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/model/circle.cpp.o -MF CMakeFiles/minicad.dir/model/circle.cpp.o.d -o CMakeFiles/minicad.dir/model/circle.cpp.o -c /workspaces/minicad_startingpoint/model/circle.cpp
 
 CMakeFiles/minicad.dir/model/circle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/model/circle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/model/circle.cpp > CMakeFiles/minicad.dir/model/circle.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/model/circle.cpp > CMakeFiles/minicad.dir/model/circle.cpp.i
 
 CMakeFiles/minicad.dir/model/circle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/model/circle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/model/circle.cpp -o CMakeFiles/minicad.dir/model/circle.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/model/circle.cpp -o CMakeFiles/minicad.dir/model/circle.cpp.s
 
 CMakeFiles/minicad.dir/model/point.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/model/point.cpp.o: ../model/point.cpp
 CMakeFiles/minicad.dir/model/point.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/minicad.dir/model/point.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/model/point.cpp.o -MF CMakeFiles/minicad.dir/model/point.cpp.o.d -o CMakeFiles/minicad.dir/model/point.cpp.o -c /workspaces/minicad_startingpoint/model/point.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/model/point.cpp.o -MF CMakeFiles/minicad.dir/model/point.cpp.o.d -o CMakeFiles/minicad.dir/model/point.cpp.o -c /workspaces/minicad_startingpoint/model/point.cpp
 
 CMakeFiles/minicad.dir/model/point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/model/point.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/model/point.cpp > CMakeFiles/minicad.dir/model/point.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/model/point.cpp > CMakeFiles/minicad.dir/model/point.cpp.i
 
 CMakeFiles/minicad.dir/model/point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/model/point.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/model/point.cpp -o CMakeFiles/minicad.dir/model/point.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/model/point.cpp -o CMakeFiles/minicad.dir/model/point.cpp.s
 
 CMakeFiles/minicad.dir/model/shape.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/model/shape.cpp.o: ../model/shape.cpp
 CMakeFiles/minicad.dir/model/shape.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/minicad.dir/model/shape.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/model/shape.cpp.o -MF CMakeFiles/minicad.dir/model/shape.cpp.o.d -o CMakeFiles/minicad.dir/model/shape.cpp.o -c /workspaces/minicad_startingpoint/model/shape.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/model/shape.cpp.o -MF CMakeFiles/minicad.dir/model/shape.cpp.o.d -o CMakeFiles/minicad.dir/model/shape.cpp.o -c /workspaces/minicad_startingpoint/model/shape.cpp
 
 CMakeFiles/minicad.dir/model/shape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/model/shape.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/model/shape.cpp > CMakeFiles/minicad.dir/model/shape.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/model/shape.cpp > CMakeFiles/minicad.dir/model/shape.cpp.i
 
 CMakeFiles/minicad.dir/model/shape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/model/shape.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/model/shape.cpp -o CMakeFiles/minicad.dir/model/shape.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/model/shape.cpp -o CMakeFiles/minicad.dir/model/shape.cpp.s
 
 CMakeFiles/minicad.dir/model/square.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/model/square.cpp.o: ../model/square.cpp
 CMakeFiles/minicad.dir/model/square.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/minicad.dir/model/square.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/model/square.cpp.o -MF CMakeFiles/minicad.dir/model/square.cpp.o.d -o CMakeFiles/minicad.dir/model/square.cpp.o -c /workspaces/minicad_startingpoint/model/square.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/model/square.cpp.o -MF CMakeFiles/minicad.dir/model/square.cpp.o.d -o CMakeFiles/minicad.dir/model/square.cpp.o -c /workspaces/minicad_startingpoint/model/square.cpp
 
 CMakeFiles/minicad.dir/model/square.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/model/square.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/model/square.cpp > CMakeFiles/minicad.dir/model/square.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/model/square.cpp > CMakeFiles/minicad.dir/model/square.cpp.i
 
 CMakeFiles/minicad.dir/model/square.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/model/square.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/model/square.cpp -o CMakeFiles/minicad.dir/model/square.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/model/square.cpp -o CMakeFiles/minicad.dir/model/square.cpp.s
 
 CMakeFiles/minicad.dir/model/triangle.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/model/triangle.cpp.o: ../model/triangle.cpp
 CMakeFiles/minicad.dir/model/triangle.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/minicad.dir/model/triangle.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/model/triangle.cpp.o -MF CMakeFiles/minicad.dir/model/triangle.cpp.o.d -o CMakeFiles/minicad.dir/model/triangle.cpp.o -c /workspaces/minicad_startingpoint/model/triangle.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/model/triangle.cpp.o -MF CMakeFiles/minicad.dir/model/triangle.cpp.o.d -o CMakeFiles/minicad.dir/model/triangle.cpp.o -c /workspaces/minicad_startingpoint/model/triangle.cpp
 
 CMakeFiles/minicad.dir/model/triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/model/triangle.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/model/triangle.cpp > CMakeFiles/minicad.dir/model/triangle.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/model/triangle.cpp > CMakeFiles/minicad.dir/model/triangle.cpp.i
 
 CMakeFiles/minicad.dir/model/triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/model/triangle.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/model/triangle.cpp -o CMakeFiles/minicad.dir/model/triangle.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/model/triangle.cpp -o CMakeFiles/minicad.dir/model/triangle.cpp.s
 
 CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.o: ../ui/commands/command_stack.cpp
 CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/command_stack.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/command_stack.cpp
 
 CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/command_stack.cpp > CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/command_stack.cpp > CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.i
 
 CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/command_stack.cpp -o CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/command_stack.cpp -o CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.s
 
 CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.o: ../ui/commands/create_circle_command.cpp
 CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/create_circle_command.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/create_circle_command.cpp
 
 CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/create_circle_command.cpp > CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/create_circle_command.cpp > CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.i
 
 CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/create_circle_command.cpp -o CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/create_circle_command.cpp -o CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.s
 
 CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o: ../ui/commands/create_square_command.cpp
 CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/create_square_command.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/create_square_command.cpp
 
 CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/create_square_command.cpp > CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/create_square_command.cpp > CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.i
 
 CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/create_square_command.cpp -o CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/create_square_command.cpp -o CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.s
 
 CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o: ../ui/commands/create_triangle_command.cpp
 CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/create_triangle_command.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/create_triangle_command.cpp
 
 CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/create_triangle_command.cpp > CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/create_triangle_command.cpp > CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.i
 
 CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/create_triangle_command.cpp -o CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/create_triangle_command.cpp -o CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.s
+
+CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.o: CMakeFiles/minicad.dir/flags.make
+CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.o: ../ui/commands/downscale_shape_command.cpp
+CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/downscale_shape_command.cpp
+
+CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/downscale_shape_command.cpp > CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.i
+
+CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/downscale_shape_command.cpp -o CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.s
 
 CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o: ../ui/commands/remove_shape_command.cpp
 CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/remove_shape_command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/remove_shape_command.cpp
 
 CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/remove_shape_command.cpp > CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/remove_shape_command.cpp > CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.i
 
 CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/remove_shape_command.cpp -o CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/remove_shape_command.cpp -o CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.s
 
 CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o: ../ui/commands/scale_shape_command.cpp
 CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/scale_shape_command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/scale_shape_command.cpp
 
 CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/scale_shape_command.cpp > CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/scale_shape_command.cpp > CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.i
 
 CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/scale_shape_command.cpp -o CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/scale_shape_command.cpp -o CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.s
 
 CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.o: ../ui/commands/translate_shape_command.cpp
 CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/translate_shape_command.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/translate_shape_command.cpp
 
 CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/translate_shape_command.cpp > CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/translate_shape_command.cpp > CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.i
 
 CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/translate_shape_command.cpp -o CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/translate_shape_command.cpp -o CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.s
+
+CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.o: CMakeFiles/minicad.dir/flags.make
+CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.o: ../ui/commands/upscale_shape_command.cpp
+CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.o -MF CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.o.d -o CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.o -c /workspaces/minicad_startingpoint/ui/commands/upscale_shape_command.cpp
+
+CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/commands/upscale_shape_command.cpp > CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.i
+
+CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/commands/upscale_shape_command.cpp -o CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.s
 
 CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.o: ../ui/ncurses/canvas.cpp
 CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.o -MF CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.o.d -o CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.o -c /workspaces/minicad_startingpoint/ui/ncurses/canvas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.o -MF CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.o.d -o CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.o -c /workspaces/minicad_startingpoint/ui/ncurses/canvas.cpp
 
 CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/ncurses/canvas.cpp > CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/ncurses/canvas.cpp > CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.i
 
 CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/ncurses/canvas.cpp -o CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/ncurses/canvas.cpp -o CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.s
 
 CMakeFiles/minicad.dir/ui/ncurses/console.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/ui/ncurses/console.cpp.o: ../ui/ncurses/console.cpp
 CMakeFiles/minicad.dir/ui/ncurses/console.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/minicad.dir/ui/ncurses/console.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/ncurses/console.cpp.o -MF CMakeFiles/minicad.dir/ui/ncurses/console.cpp.o.d -o CMakeFiles/minicad.dir/ui/ncurses/console.cpp.o -c /workspaces/minicad_startingpoint/ui/ncurses/console.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/minicad.dir/ui/ncurses/console.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/ncurses/console.cpp.o -MF CMakeFiles/minicad.dir/ui/ncurses/console.cpp.o.d -o CMakeFiles/minicad.dir/ui/ncurses/console.cpp.o -c /workspaces/minicad_startingpoint/ui/ncurses/console.cpp
 
 CMakeFiles/minicad.dir/ui/ncurses/console.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/ncurses/console.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/ncurses/console.cpp > CMakeFiles/minicad.dir/ui/ncurses/console.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/ncurses/console.cpp > CMakeFiles/minicad.dir/ui/ncurses/console.cpp.i
 
 CMakeFiles/minicad.dir/ui/ncurses/console.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/ncurses/console.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/ncurses/console.cpp -o CMakeFiles/minicad.dir/ui/ncurses/console.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/ncurses/console.cpp -o CMakeFiles/minicad.dir/ui/ncurses/console.cpp.s
 
 CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.o: ../ui/ncurses/menu.cpp
 CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.o -MF CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.o.d -o CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.o -c /workspaces/minicad_startingpoint/ui/ncurses/menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.o -MF CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.o.d -o CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.o -c /workspaces/minicad_startingpoint/ui/ncurses/menu.cpp
 
 CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/ncurses/menu.cpp > CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/ncurses/menu.cpp > CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.i
 
 CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/ncurses/menu.cpp -o CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/ncurses/menu.cpp -o CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.s
 
 CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.o: ../ui/ncurses/screen.cpp
 CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.o -MF CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.o.d -o CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.o -c /workspaces/minicad_startingpoint/ui/ncurses/screen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.o -MF CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.o.d -o CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.o -c /workspaces/minicad_startingpoint/ui/ncurses/screen.cpp
 
 CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/ncurses/screen.cpp > CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/ncurses/screen.cpp > CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.i
 
 CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/ncurses/screen.cpp -o CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/ncurses/screen.cpp -o CMakeFiles/minicad.dir/ui/ncurses/screen.cpp.s
 
 CMakeFiles/minicad.dir/ui/ncurses/window.cpp.o: CMakeFiles/minicad.dir/flags.make
 CMakeFiles/minicad.dir/ui/ncurses/window.cpp.o: ../ui/ncurses/window.cpp
 CMakeFiles/minicad.dir/ui/ncurses/window.cpp.o: CMakeFiles/minicad.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/minicad.dir/ui/ncurses/window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/ncurses/window.cpp.o -MF CMakeFiles/minicad.dir/ui/ncurses/window.cpp.o.d -o CMakeFiles/minicad.dir/ui/ncurses/window.cpp.o -c /workspaces/minicad_startingpoint/ui/ncurses/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/minicad.dir/ui/ncurses/window.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minicad.dir/ui/ncurses/window.cpp.o -MF CMakeFiles/minicad.dir/ui/ncurses/window.cpp.o.d -o CMakeFiles/minicad.dir/ui/ncurses/window.cpp.o -c /workspaces/minicad_startingpoint/ui/ncurses/window.cpp
 
 CMakeFiles/minicad.dir/ui/ncurses/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minicad.dir/ui/ncurses/window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/ncurses/window.cpp > CMakeFiles/minicad.dir/ui/ncurses/window.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/minicad_startingpoint/ui/ncurses/window.cpp > CMakeFiles/minicad.dir/ui/ncurses/window.cpp.i
 
 CMakeFiles/minicad.dir/ui/ncurses/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minicad.dir/ui/ncurses/window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/ncurses/window.cpp -o CMakeFiles/minicad.dir/ui/ncurses/window.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/minicad_startingpoint/ui/ncurses/window.cpp -o CMakeFiles/minicad.dir/ui/ncurses/window.cpp.s
 
 # Object files for target minicad
 minicad_OBJECTS = \
@@ -333,9 +361,11 @@ minicad_OBJECTS = \
 "CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.o" \
 "CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o" \
 "CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o" \
+"CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.o" \
 "CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o" \
 "CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o" \
 "CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.o" \
+"CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.o" \
 "CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.o" \
 "CMakeFiles/minicad.dir/ui/ncurses/console.cpp.o" \
 "CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.o" \
@@ -355,9 +385,11 @@ minicad: CMakeFiles/minicad.dir/ui/commands/command_stack.cpp.o
 minicad: CMakeFiles/minicad.dir/ui/commands/create_circle_command.cpp.o
 minicad: CMakeFiles/minicad.dir/ui/commands/create_square_command.cpp.o
 minicad: CMakeFiles/minicad.dir/ui/commands/create_triangle_command.cpp.o
+minicad: CMakeFiles/minicad.dir/ui/commands/downscale_shape_command.cpp.o
 minicad: CMakeFiles/minicad.dir/ui/commands/remove_shape_command.cpp.o
 minicad: CMakeFiles/minicad.dir/ui/commands/scale_shape_command.cpp.o
 minicad: CMakeFiles/minicad.dir/ui/commands/translate_shape_command.cpp.o
+minicad: CMakeFiles/minicad.dir/ui/commands/upscale_shape_command.cpp.o
 minicad: CMakeFiles/minicad.dir/ui/ncurses/canvas.cpp.o
 minicad: CMakeFiles/minicad.dir/ui/ncurses/console.cpp.o
 minicad: CMakeFiles/minicad.dir/ui/ncurses/menu.cpp.o
@@ -367,7 +399,7 @@ minicad: CMakeFiles/minicad.dir/build.make
 minicad: /usr/lib/libcurses.so
 minicad: /usr/lib/libform.so
 minicad: CMakeFiles/minicad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable minicad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/minicad_startingpoint/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable minicad"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minicad.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

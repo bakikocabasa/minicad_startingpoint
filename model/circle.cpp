@@ -18,16 +18,16 @@ void Circle::scale(double scaling_coeff)
 
 void Circle::draw(ui::Canvas* canvas) const
 {
-    //radius=radius
-    int f = 1 - radius;
+    const int get_radius_double=double(radius);
+    int f = 1 - get_radius_double;
     int ddf_x = 1;
-    int ddf_y = -2 * radius;
+    int ddf_y = -2 * get_radius_double;
     int x = 0;
     int y = radius;
-    canvas->drawPixel(center.x, center.y + radius);
-    canvas->drawPixel(center.x, center.y - radius);
-    canvas->drawPixel(center.x + radius, center.y);
-    canvas->drawPixel(center.x - radius, center.y);
+    canvas->drawPixel(center.x, center.y + get_radius_double);
+    canvas->drawPixel(center.x, center.y - get_radius_double);
+    canvas->drawPixel(center.x + get_radius_double, center.y);
+    canvas->drawPixel(center.x - get_radius_double, center.y);
 
     while (x < y) {
         if (f >= 0) {

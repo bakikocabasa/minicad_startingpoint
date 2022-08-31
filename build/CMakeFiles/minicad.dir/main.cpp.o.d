@@ -143,4 +143,5 @@ CMakeFiles/minicad.dir/main.cpp.o: \
  /workspaces/minicad_startingpoint/ui/commands/create_triangle_command.h \
  /workspaces/minicad_startingpoint/ui/commands/translate_shape_command.h \
  /workspaces/minicad_startingpoint/ui/commands/remove_shape_command.h \
- /workspaces/minicad_startingpoint/ui/commands/scale_shape_command.h
+ /workspaces/minicad_startingpoint/ui/commands/upscale_shape_command.h \
+ /workspaces/minicad_startingpoint/ui/commands/downscale_shape_command.h

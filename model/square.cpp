@@ -13,6 +13,7 @@ void Square::scale(double scaling_coeff)
 {
     
     length*=scaling_coeff;
+    
     observer->update();
 }
 
